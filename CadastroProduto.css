@@ -1,0 +1,14 @@
+.cadastroProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.cadastroProduto div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

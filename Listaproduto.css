@@ -1,0 +1,25 @@
+.listaDeProdutos {
+list-style: none;
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.produto{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.produto img{
+    width:  180px;
+    height: 180px;
+    object-fit: contain;
+}
+.produto:not(:first-child){
+    margin-left: 25px;
+}
